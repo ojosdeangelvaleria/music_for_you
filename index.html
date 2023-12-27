@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Music For You</title>
+<link rel="shortcut icon" href="img/music.svg">
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  background-color: #FFC0CB;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+  h1 {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+
+  h1:hover {
+    color: #f5ddec; /* Cambio de color al pasar el mouse */
+  }
+
+  video {
+    width: 70%;
+    max-width: 700px;
+    border-radius: 25px; /* Borde más redondeado para suavidad */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+    transition: transform 0.3s ease; /* Suave escala al pasar el mouse */
+  }
+
+  video:hover {
+    transform: scale(1.06); /* Aumentar tamaño al pasar el mouse */
+  }
+
+</style>
+</head>
+<body>
+  <h1>&#128522 Fonseca - Te Mando Flores 🌹🌻🌼🌸🌷</h1>
+<video controls autoplay loop>
+  <source src="video/004.mp4" type="video/mp4">
+</video>
+<h1>&#128522 Christian Castro - Nunca voy a olvidarte &#128516</h1>
+<video controls loop>
+  <source src="video/002.mp4" type="video/mp4">
+</video>
+
+<h1>&#128522 Christian Castro - Una Cancion Para Ti &#128516</h1>
+<video controls loop>
+  <source src="video/001.mp4" type="video/mp4">
+</video>
+
+
+
+
+<!-- Puedes seguir agregando más videos o contenido según lo desees -->
+
+</body>
+</html>
